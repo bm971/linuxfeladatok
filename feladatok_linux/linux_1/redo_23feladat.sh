@@ -3,7 +3,8 @@
 # redo 2feladat.sh
 
 userdel student
-userdel user
+# group 'users' is primary group of user 'games', so it cannot be deleted
+#userdel user
 userdel loser 
 
 groupdel losers
