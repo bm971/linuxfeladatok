@@ -13,4 +13,4 @@ groupdel students
 rm -r /home/student
 rm -r /home/abc123
 rm -r /home/loser
-rm -rf ${PWD}/dumpdir/*
+rm -rf ${PWD}/dumpdir
