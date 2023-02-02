@@ -3,12 +3,12 @@
 # redo 2feladat.sh or 3feladat.sh
 
 userdel student
-# group 'users' is primary group of user 'games', so it cannot be deleted
-#userdel user
+userdel user
 userdel loser 
 
 groupdel losers
-groupdel users
+# group 'users' is primary group of user 'games', so it cannot be deleted
+#groupdel users
 groupdel students
 
 rm -r /home/student
