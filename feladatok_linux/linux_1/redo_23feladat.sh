@@ -1,6 +1,6 @@
 #! /bin/bash
 
-# redo 2feladat.sh
+# redo 2feladat.sh or 3feladat.sh
 
 userdel student
 # group 'users' is primary group of user 'games', so it cannot be deleted
